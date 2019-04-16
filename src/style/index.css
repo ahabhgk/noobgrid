@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.icon {
+  width: 1em; height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+.bar {
+  width: 100vw;
+  height: 10vw;
+  background: blue;
+}
+
+.bar-icons {
+  width: 4vw;
+  height: 4vw;
+}
+
+.icon-twitter {
+  color: #fff;
+}
