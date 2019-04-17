@@ -12,24 +12,50 @@
   <header class="header">
     <div class="bar">
       <div class="bar-wrap">
-        <div>
-          <div class="bar-links"></div>
-          <div class="bar-links"></div>
-          <div class="bar-links"></div>
-          <div class="bar-links border"></div>
+        <div class="drop"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-smile"></use></svg></div>
+        <div class="bar-links-wrap">
+          <div class="bar-links left-border right-border"><a href="javascript:;"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-man"></use></svg> AgentLogin</a></div>
+          <div class="bar-links right-border"><a href="javascript:;"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-man"></use></svg> CustomerLogin</a></div>
+          <div class="bar-links right-border"><span><svg class="icon" aria-hidden="true"><use xlink:href="#icon-date"></use></svg> Not a Member? <a id="reg" class="green-links" href="javascript:;">Register</a></span></div>
+          <div class="bar-links right-border"><span>Call Us Now: 815-123-4567</span></div>
         </div>
-        <div>
-          <div class="bar-icons left"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-twitter"></use></svg></div>
-          <div class="bar-icons right"></div>
-          <div class="bar-icons right"></div>
-          <div class="bar-icons right"></div>
+        <div class="bar-icons-wrap">
+          <a href="javascript:;" class="bar-icons left-border right-border"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-twitter"></use></svg></a>
+          <a href="javascript:;" class="bar-icons right-border"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-facebook"></use></svg></a>
+          <a href="javascript:;" class="bar-icons right-border"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-tumblr"></use></svg></a>
+          <a href="javascript:;" class="bar-icons right-border"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-pinterest"></use></svg></a>
         </div>
       </div>
     </div>
-    <nav class="nav"></nav>
+    <nav class="nav">
+      <div class="nav-wrap">
+        <span class="logo">V<em>O</em>YAGE</span>
+        <div class="nav-main">
+          <div><a class="nav-main-items nav-active" href="javasrcipt:;">HOME</a></div>
+          <div><a class="nav-main-items" href="javasrcipt:;">DESTINATIONS</a></div>
+          <div><a class="nav-main-items" href="javasrcipt:;">CRIUSES</a></div>
+          <div><a class="nav-main-items" href="javasrcipt:;">SPEACIALS</a></div>
+          <div><a class="nav-main-items" href="javasrcipt:;">HOLIDAYS</a></div>
+          <div><a class="nav-main-items" href="javasrcipt:;">BLOG</a></div>
+          <div><a class="nav-search" href="javasrcipt:;"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-search"></use></svg></a></div>
+        </div>
+      </div>
+    </nav>
   </header>
   <main class="main">
-    <div class="carousel"></div>
+    <h-carousel
+      width="100%"
+      height="41vw"
+      mode="shallow"
+      has-dots="false"
+      has-arrows="true"
+      time="5000">
+      [
+        "./src/img/bridge.png",
+        "./src/img/mind.jpg",
+        "./src/img/blackhole.jpg"
+      ]
+    </h-carousel>
     <form class="form"></form>
     <div class="special-offers"></div>
     <div class="holidays-type"></div>
@@ -39,5 +65,8 @@
     <div class="links"></div>
     <div class="foot"></div>
   </footer>
+
+<script src="./src/js/carousel.js"></script>
+<script src="./src/js/index.js"></script>
 </body>
 </html>
